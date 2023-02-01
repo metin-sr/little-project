@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <section>
+
+  </section>
+  <TrainingData>
+  </TrainingData>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TrainingData from "./components/TrainingData.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
-</script>
+    TrainingData,
+  },
+};
 
-<style>
+</script>
+  <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #c9ba93;
   margin-top: 60px;
 }
+
 </style>
